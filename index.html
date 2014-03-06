@@ -13,12 +13,33 @@ description: Tips, tricks, and tutorials about web design, front-end development
 </nav>
 
 <div class="pagination-wrapper">
+
+
+<!-- 1-2 pages of pagination -->
+
+{% if paginator.total_pages < 3 %}
 {% if paginator.total_pages > 1 %}
 <nav class="pagination">
   {% if paginator.previous_page %}
-	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Posts</a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+	<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a>
+  {% endif %}
+</nav>
+{% endif %}
+{% endif %}
+
+
+<!-- More than two pages of pagination -->
+
+{% if paginator.total_pages > 2 %}
+<nav class="pagination">
+  {% if paginator.previous_page %}
+	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer</a>
   {% else %}
-	<span>&laquo; Prev</span>
+	<span>&laquo; Newer</span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -32,10 +53,11 @@ description: Tips, tricks, and tutorials about web design, front-end development
   {% endfor %}
 
   {% if paginator.next_page %}
-	<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+	<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &raquo;</a>
   {% else %}
-	<span>Next &raquo;</span>
+	<span>Older &raquo;</span>
   {% endif %}
 </nav>
 {% endif %}
+
 </div>

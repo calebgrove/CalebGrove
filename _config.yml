@@ -6,7 +6,8 @@ permalink: /articles/:title.html
 exclude: [content, utilities]
 markdown_ext: foo
 relative_permalinks: false
-paginate: 20
+paginate_path: /page:num
+paginate: 10
 sitemap:
   chomp_html: true
   exclude:
