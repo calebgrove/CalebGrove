@@ -1,0 +1,47 @@
+---
+---
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+//-----------------------------------//
+// variables
+//-----------------------------------//
+
+$header-font: 'Merriweather', Georgia, serif;
+$body-font: 'ClearSans', 'Open Sans', Helvetica, Arial, sans-serif;
+$code-font: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+
+$page-bg: #F8F8F8; // background color for the page.
+$color: #272727; // default text color.
+$active-bg: #7FA6C1; // h1 background color
+$alt-bg: lighten($active-bg, 10%); // background color for active navigation.
+$border-color: rgba(0,0,0,0.2); // Mostly transparent black to use for borders.
+
+//-----------------------------------//
+// mixins
+//-----------------------------------//
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: ($sizeValue) + rem;
+}
+
+//-----------------------------------//
+// reset
+//-----------------------------------//
+
+* {
+	@include box-sizing(border-box); 
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin-top:0 !important;
+}
+
+@import "typography";
+@import "layout";
+@import "highlight";
+@import "responsive";

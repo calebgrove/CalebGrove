@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<article>
+	<h1>{{ page.title }}</h1>
+	<div class="content post" markdown="1">
+		<div class="post-data">
+			<span class="date">{{ page.date | date: "%d %b %Y" }}</span>
+			<div class="tags">
+				{% for tag in page.tags %}
+				<a class="blog-tag" href="/tag/{{ tag }}">#{{ tag }}</a>
+				{% endfor %}
+			</div>
+		</div>
+		{{ content }}
+	</div>
+</article>
+
+<!-- thoughts -->
+<section class="thoughts">
+<p><em>Published on {{ page.date | date: "%d %b %Y" }} by <a href="/about" rel="me">Caleb Grove</a>.</em></p>
+<p>Agree? Disagree? Did it work? Want to say thanks? <a href="https://twitter.com/SirCalebGrove">@reply</a> me on Twitter.</p>
+<p>Love it? Subscribe to the <a href="/feed.xml">RSS feed</a>.</p>
+</section>
+
+<!-- related posts -->
+{% if site.related_posts.size > 0 %}
+<h2 class="section-header">Related Posts</h2>
+<nav class="posts">
+	<ol>
+	{% for post in site.related_posts limit:4 %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ol>
+</nav>
+{% endif %}
+
+<!-- recent posts -->
+{% if site.related_posts == empty %}
+<h2 class="section-header">Recent Posts</h2>
+<nav class="posts">
+	<ol>
+	{% for post in site.posts limit:4 %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ol>
+</nav>
+{% endif %}

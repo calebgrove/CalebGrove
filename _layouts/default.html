@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }} | {{ site.name }}</title>
+{% if page.description %}
+		<meta name="description" content="{{page.description}}">
+{% endif %}
+{% if page.robots %}
+		<meta name="robots" content="{{page.robots}}">
+{% endif %}
+{% if page.date %}
+		<meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}">
+{% endif %}
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<meta property="og:image" content="http://calebgrove.com/images/calebgrove.jpg">
+		<link rel="apple-touch-icon" href="/images/apple-touch-icon-precomposed.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon@2x.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-76x76@2x.png">
+		<link rel="stylesheet" href="/css/styles.css">
+		<link href='http://fonts.googleapis.com/css?family=Merriweather:700,400' rel='stylesheet' type='text/css'>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-21273781-11', 'calebgrove.com');
+			ga('send', 'pageview');
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<div class="main-title">
+					<a href="/" title="Go Home">Caleb Grove</a>
+				</div>
+				<div class="subtitle">The blog of <a href="/about.html" title="About Caleb Grove">a rather nice fellow</a>.</div>
+			</header>
+			{{ content }}
+		</div>
+	</body>
+	{% if page.path contains '_posts' %}
+	<script src="/js/highlight.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	{% endif %}
+</html>

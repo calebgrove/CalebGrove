@@ -1,0 +1,144 @@
+
+/*-----------------------------------//
+// code highlight stylesheet
+//-----------------------------------*/
+
+// Tomorrow Night
+//$background: #2D2D2D;
+//$foreground: #D9D9D9;
+//$comment: #999999;
+//$red: #F2777A;
+//$orange: #F99157;
+//$yellow: #FFCC66;
+//$green: #99CC99;
+//$aqua: #66CCCC;
+//$blue: #6699CC;
+//$purple: #CC99CC;
+
+$background: lighten($page-bg, 5%);
+$selection: #D6D6D6;
+$foreground: #4D4D4C;
+$comment: #8E908C;
+$red: #C82829;
+$orange: #F5871F;
+$yellow: #EAB700;
+$green: #718C00;
+$aqua: #3E999F;
+$blue: #4271AE;
+$purple: #8959A8;
+
+.hljs-comment,
+.hljs-title {
+  color: $comment;
+}
+
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: $red;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: $orange;
+}
+
+/* Tomorrow Yellow */
+.ruby .hljs-class .hljs-title,
+.css .hljs-rules .hljs-attribute {
+  color: $yellow;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: $green;
+}
+
+/* Tomorrow Aqua */
+.css .hljs-hexcolor {
+  color: $aqua;
+}
+
+/* Tomorrow Blue */
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: $blue;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.javascript .hljs-function {
+  color: $purple;
+}
+
+pre {
+	border-radius: 3px;
+	border: 1px $border-color solid;
+	display: block;
+	background: $background;
+	color: lighten($foreground, 10%);
+	padding: 0.5em 3%;
+	border-radius: 4px;
+	overflow: scroll;
+	line-height: 1.4;
+}
+
+pre code {
+	border: none;
+	background-color: transparent;
+	border-radius: 0;
+	@include font-size(1.1);
+	padding: 0;
+}
+
+code {
+	font-size: 0.8em;
+	color: lighten($color, 10%);
+	background: $background;
+	border: 1px $border-color solid;
+	border-radius: 2px;
+	padding: 0 0.1em;
+	padding: 0.1em 0.2em;
+	&::selection {
+		color: $color;
+	}
+}
+
+pre code::selection, pre code span::selection {
+	background-color: $selection !important;
+}
+
+.gist, .gist .gist-data {
+	@include font-size(1.4);
+	border-radius: 3px;
+	.gist-data {
+		background-color: $background !important;
+		font-family: $code-font;
+	}
+}

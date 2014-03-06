@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1 class="category">Posts filed under &ldquo;{{ page.tag }}&rdquo;</h1>
+<div id="category">
+	<nav class="posts">
+		<ol>
+			{% for post in site.posts %}{% for tag in post.tags %}{% if tag == page.tag %}
+			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}{% endfor %}{% endfor %}
+		</ol>
+	</nav>
+</div>
