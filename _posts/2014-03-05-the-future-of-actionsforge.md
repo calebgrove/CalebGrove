@@ -26,7 +26,7 @@ When the Kickstarter failed, Walter set up a [page to collect pre-commitments](h
 
 **This is *your* time to help give back to the Freeway community.** Both Walter and ActionsForge have been gigantic assets to you, and now it's up to you to **[ensure the future of ActionsForge](http://actionsforge.com/next)**.
 
-I'm a 18 year old creative professional - and in school. I have yet to even purchase a car. I am far, far, from being even remotely wealthy. Between Backdraft ($10 gets earmarked for ActionsForge Next from each sale) and pledges made from my own pocket change, I've managed to collect nearly $2,000 for ActionsForge Next. I'm not telling you this to claim any sort of superiority - most of it is from my awesome Backdraft customers - but rather to put this next question in perspective.
+I'm an 18 year old creative professional - and in school. I have yet to even purchase a car. I am far, far, from being even remotely wealthy. Between Backdraft ($10 gets earmarked for ActionsForge Next from each sale) and pledges made from my own pocket change, I've managed to collect nearly $2,000 for ActionsForge Next. I'm not telling you this to claim any sort of superiority - most of it is from my awesome Backdraft customers - but rather to put this next question in perspective.
 
 **What have you done?**
 
