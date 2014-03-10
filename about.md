@@ -20,6 +20,8 @@ You can find him on [Twitter](https://twitter.com/SirCalebGrove) and <a href="ht
 ## The Site
 This site was written by Caleb in [Coda](http://www.panic.com/coda/), [Chocolat](https://chocolatapp.com), and [TextMate 2](http://macromates.com) (he can't pick one) using the venerable [Jekyll](http://jekyllrb.com) to build it (it's awesome), with additional cools provided by [highlight.js](http://highlightjs.org) and [Sass](http://sass-lang.com). Honorable mentions to an [awesome playlist](http://open.spotify.com/user/123118516/playlist/1rlz2piAH9GpkTVeCfSafo), [Anvil](http://anvilformac.com), [Forklift](http://binarynights.com/forklift/) and all the slick folks at [Freewaytalk.net](http://freewaytalk.net).
 
+Fonts used are [Merriweather](https://www.google.com/fonts/specimen/Merriweather){:.merriweather} and [Clear Sans](https://01.org/clear-sans).
+
 You can find the source for this site on [GitHub](https://github.com/CalebGrove/CalebGrove).
 
 ## Hire Caleb
