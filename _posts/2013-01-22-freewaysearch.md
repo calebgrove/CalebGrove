@@ -6,6 +6,7 @@ layout: post
 description:
 tags: freeway
 robots:
+css: freewaysearch
 ---
 
 In my early days of using [Freeway](http://softpress.com/products/freeway-pro.html), I had lots of questions, which meant I spent the majority of my time searching for answers. Answer-hunting was not very easy, as Freeway's documentation is spread across the web in small bits and pieces.  
@@ -16,7 +17,21 @@ You have the "official" documentation in the [Using Freeway Guide](http://downl
   
 Build a custom search engine that only searches Freeway-relevant sites! Out of that [FreewaySearch](http://freewaysearch.calebgrove.com/) was born.
   
-You can find it at [freewaysearch.calebgrove.com](http://freewaysearch.calebgrove.com/)
+You can find it at [freewaysearch.calebgrove.com](http://freewaysearch.calebgrove.com/), or try it here:
+
+<script>
+  (function() {
+	var cx = '002987801838384446422:v7fs4hh8mye';
+	var gcse = document.createElement('script');
+	gcse.type = 'text/javascript';
+	gcse.async = true;
+	gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+		'//www.google.com/cse/cse.js?cx=' + cx;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
 
 Also, if you use [Alfred](http://www.alfredapp.com), I've created a little shortcut! Simply click [here](alfred://customsearch/FreewaySearch/fs/utf8/noplus/http://www.google.com/cse?q=blah&submit=Freeway+Search&cx=002987801838384446422%3Av7fs4hh8mye#gsc.tab=0&gsc.q={query}&gsc.page=1) to add it to Alfred, then use the `fs` keyword to run the search. :)
 {: #alfred }
