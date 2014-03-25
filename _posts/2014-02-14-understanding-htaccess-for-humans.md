@@ -8,7 +8,7 @@ tags: web-dev
 I'll be helping a new web designer with one of his first websites, and one (or more) of these questions will inevitably be asked:
 
 * "How do I create a redirect?"
-* "How do I hide the page file extension for cleaner URLs?"
+* "How do I hide the page's file extension for cleaner URLs?"
 * "How do I enable compression and caching?"
 
 All these problems can be solved by utilizing the power of the .htaccess file. Too often I find that this file confuses and scares those who could benefit greatly from it. In this post, we will look at what this file is, how to use it, and then I'll share some useful snippets at the end.
