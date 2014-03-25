@@ -1,0 +1,49 @@
+# BEGIN REDIRECTS
+	Redirect 301 /blog http://calebgrove.com
+	Redirect 301 /who.html /about
+	Redirect 301 /donate.html /about#hire-caleb
+	Redirect 301 /hireme.html /about#hire-caleb
+	Redirect 301 /categories/css /tag/css
+	Redirect 301 /categories/mac /tag/mac
+	Redirect 301 /four-oh-four-page /articles/four-oh-four-page
+	Redirect 301 /page-speed-bookmarklet /articles/page-speed-bookmarklet
+# END REDIRECTS
+
+# 404 REDIRECT
+	ErrorDocument 404 /404.html
+# END 404 REDIRECT
+
+# BEGIN FORCE DOWNLOADS
+	AddType application/octet-stream .freeway
+# END FORCE DOWNLOADS
+
+# BEGIN HIDE .HTML EXTENSION
+	Options +FollowSymLinks -MultiViews
+	DirectorySlash Off
+	RewriteEngine On
+	RewriteCond %{SCRIPT_FILENAME}/ -d
+	RewriteCond %{SCRIPT_FILENAME}.html !-f
+	RewriteRule [^/]$ %{REQUEST_URI}/ [R=301,L]
+	RewriteCond %{ENV:REDIRECT_STATUS} ^$
+	RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+	RewriteCond %{SCRIPT_FILENAME}.html -f
+	RewriteRule [^/]$ %{REQUEST_URI}.html [QSA,L]
+# END HIDE .HTML EXTENSION
+
+# BEGIN DEFLATE
+	AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript image/svg+xml
+# END DEFLATE
+
+# BEING EXPIRATION
+	ExpiresActive On
+	ExpiresByType image/jpg "access 1 year"
+	ExpiresByType image/jpeg "access 1 year"
+	ExpiresByType image/gif "access 1 year"
+	ExpiresByType image/png "access 1 year"
+	ExpiresByType text/css "access 1 month"
+	ExpiresByType application/pdf "access 1 month"
+	ExpiresByType text/x-javascript "access 1 month"
+	ExpiresByType application/x-shockwave-flash "access 1 month"
+	ExpiresByType image/x-icon "access 1 year"
+	ExpiresDefault "access 1 week"
+# END EXPIRATION
