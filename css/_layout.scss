@@ -20,7 +20,7 @@ header {
 }
 
 a[href$=".zip"]:after {
-	content: " \2193";
+	content: " \2193"; // down arrow
 }
 
 ol {
@@ -165,20 +165,4 @@ blockquote {
 	20%, 29% { border-left: 1rem solid transparent; padding-left: 1rem; }
 	30% { background-color: #7D9EB2; border-left: 1rem solid #7D9EB2; }
 	100% { background-color: transparent; border-left: 1rem solid #7D9EB2; }
-}
-
-.key {
-	background-color: white;
-	border: 1px rgba(0,0,0,0.3) solid;
-	border-radius: 3px;
-	display: inline-block;
-	line-height: 1;
-	text-align: center;
-	min-width: 1.3em;
-	font-family: 'helvetica', arial;
-	font-size: 0.8em;
-	margin: 0 0.1em;
-	box-shadow: 0 1px 2px -1px rgba(0,0,0,0.5);
-	padding-top: 2px;
-	padding-bottom: 0px;
 }
