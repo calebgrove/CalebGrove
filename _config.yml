@@ -3,7 +3,6 @@ description: A blog about front end development, web design, OS X, and Freeway, 
 url: http://calebgrove.com
 permalink: /articles/:title.html
 exclude: [content, utilities]
-markdown_ext: foo
 relative_permalinks: false
 paginate_path: /page:num
 paginate: 10
