@@ -1,6 +1,5 @@
 name: Caleb Grove
 description: A blog about front end development, web design, OS X, and Freeway, as written by eccentric Caleb Grove.
-markdown: kramdown
 url: http://calebgrove.com
 permalink: /articles/:title.html
 exclude: [content, utilities]
@@ -8,6 +7,8 @@ markdown_ext: foo
 relative_permalinks: false
 paginate_path: /page:num
 paginate: 10
+sass:
+  sass_dir: css
 sitemap:
   chomp_html: true
   exclude:
