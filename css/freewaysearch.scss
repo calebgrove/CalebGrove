@@ -2,9 +2,10 @@
 ---
 
 @import "bourbon/bourbon";
+@import "neat/neat";
 
 .gsc-control-cse {
-	transition: all 0.1s linear;
+	@include transition(all 0.1s linear);
 	line-height: normal;
 	font-family: 'ClearSans', 'Open Sans', Helvetica, Arial, sans-serif;
 	border-radius: 3px;
@@ -32,5 +33,5 @@
 }
 
 .gsc-input-box-hover, .gsc-input-box-focus {
-	@include box-shadow(none !important);
+	box-shadow: none !important;
 }
