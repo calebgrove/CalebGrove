@@ -140,6 +140,30 @@ blockquote {
 	font-size: 1.1em;
 }
 
+table {
+	border: 1px solid $solid-border-color;
+	border-collapse: collapse;
+	min-width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+thead, tr:nth-child(even) {
+	background-color: darken($page-bg, 10%);
+}
+
+th {
+	border: 1px solid $solid-border-color;
+}
+
+th, td {
+	padding: 0.3em 0.6em;
+}
+
+td {
+	border-top: 1px solid $solid-border-color;
+}
+
 .post-data {
 	margin-top: 2em;
 	margin-bottom: 2em;

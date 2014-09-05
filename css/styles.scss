@@ -16,7 +16,8 @@ $page-bg: #F8F8F8; // background color for the page.
 $color: #272727; // default text color.
 $active-bg: #7FA6C1; // h1 background color
 $alt-bg: lighten($active-bg, 10%); // background color for active navigation.
-$border-color: rgba(0,0,0,0.2); // Mostly transparent black to use for borders.
+$border-color: rgba(0,0,0,0.2); // mostly transparent black to use for borders.
+$solid-border-color: #B4B4B4; // non-transparent version of $border-color.
 
 //-----------------------------------//
 // mixins
