@@ -6,7 +6,7 @@ layout: post
 tags: design sketch
 ---
 
-[Download the Sketch document.](http://calebgrove.com/box/Applelicous.zip)
+[Download the Sketch document.](/download/Applelicous.zip)
 {:.download.sketch}
 
 ![](http://4.bp.blogspot.com/-3HfxmvJSfTk/UOINguZs9eI/AAAAAAAACwg/n44FCLgQp7I/s200/Appleicious+Icon.png)

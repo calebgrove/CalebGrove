@@ -5,7 +5,7 @@ date:       2014-09-04
 tags: freeway responsive
 ---
 
-[Download the demonstration Freeway document.](http://cl.ly/XKtR/download/Responsive%20Text.freeway)
+[Download the demonstration Freeway document.](/download/Responsive-Text.freeway)
 {:.download.freeway}
 
 Softpress Systems has recently released a huge update to [Freeway Pro](http://www.softpress.com/freeway-pro/), their tool that allows designers to create websites visually. The flagship feature in this update? The ability to create responsive websites *without writing code*.

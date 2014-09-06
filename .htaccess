@@ -7,6 +7,12 @@
 	Redirect 301 /categories/mac /tag/mac
 	Redirect 301 /four-oh-four-page /articles/four-oh-four-page
 	Redirect 301 /page-speed-bookmarklet /articles/page-speed-bookmarklet
+	
+	Redirect 301 /box/Scribus.zip /download/Scribus.zip
+	Redirect 301 /box/ScribusRPL.zip /download/ScribusRPL.zip
+	Redirect 301 /box/Smart.zip /download/Smart.zip
+	Redirect 301 /box/Paper.zip /download/Paper.zip
+	Redirect 301 /box/Applelicous.zip /download/Applelicous.zip
 # END REDIRECTS
 
 # 404 REDIRECT

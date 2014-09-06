@@ -66,7 +66,7 @@ This method of construction is the most bullet-proof system available right now.
 * Difficult to master
 * More time to create
 	
-**How to:** There is really no reason for me to teach this here, as FeebleEagle (aka past Freeway wizard Dan Jasker) wrote [this excellent tutorial on Freewaytalk](http://www.freewaytalk.net/thread/view/31133). I've turned his tutorial into a skeleton blogger template which you can style. Download the inline version of Scribus [here](http://calebgrove.com/box/Scribus.zip).	
+**How to:** There is really no reason for me to teach this here, as FeebleEagle (aka past Freeway wizard Dan Jasker) wrote [this excellent tutorial on Freewaytalk](http://www.freewaytalk.net/thread/view/31133). I've turned his tutorial into a skeleton blogger template which you can style. Download the inline version of Scribus [here](http://calebgrove.com/download/Scribus.zip).	
 
 #### RPL Construction
 
@@ -86,7 +86,7 @@ What the RPL action does is take a page created in the typical Freeway method (s
 * Adjust the "Overlap" slider in the action interface. First, bring it up to 50 and preview. If that fixes the issue, bring it down by 10 and preview again. Keep doing this until the page breaks again. Then move the slider up 10 to the last working configuration. If 50 doesn't fix it, move it up by 10 and preview. If you get to 100 and the page is still working, it's time to go to the second method (below).
 * Apply the "Remove from Relative Page Layout" action to the element that is causing the trouble. To find which element it is will require some trial and error. Apply the action to an item, preview. If that doesn't fix it, apply to a different item. Keep doing this until you fix the problem. Make sure you aren't applying the Remove from RPL action to a container of the Blogger actions themselves though, as that will defeat the purpose of using the RPL action. If none of these work, then you're stuck building it with the Inline method outlined above.
 
-Alternatively, you can download a RPL version of Scribus (a skeleton Freeway/Blogger template) from [here](http://calebgrove.com/box/ScribusRPL.zip), and style to taste.
+Alternatively, you can download a RPL version of Scribus (a skeleton Freeway/Blogger template) from [here](http://calebgrove.com/download/ScribusRPL.zip), and style to taste.
 
 ### Adding More Widgets
 
@@ -107,7 +107,7 @@ Now that you've got an uber-awesome template built in Freeway, you have to get t
 ### Publishing Workflow
 
 1. Upload from Freeway to your web server (<span class="key">⌘</span><span class="key">U</span>)
-2. Open the Actions window (Topbar>Window>Actions).
+2. Open the Actions window (Topbar > Window > Actions).
 3. Select any of the Blogger actions on the page and click on the "Copy to Clipboard" button.
 4. Go to [Blogger](http://www.blogger.com/blogger.com) and choose your blog from the listing.
 5. Click on the "Template" tab in the sidebar.
