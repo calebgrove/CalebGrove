@@ -19,7 +19,7 @@ header {
 	margin-top: 3rem;
 }
 
-a[href$=".zip"]:after {
+a[href$=".zip"]:after, a[href$=".freeway"]:after, a[href$=".sketch"]:after {
 	content: " \2193"; // down arrow
 }
 
