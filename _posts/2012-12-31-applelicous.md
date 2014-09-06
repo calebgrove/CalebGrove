@@ -6,6 +6,9 @@ layout: post
 tags: design sketch
 ---
 
+[Download the Sketch document.](http://calebgrove.com/box/Applelicous.zip)
+{:.download.sketch}
+
 ![](http://4.bp.blogspot.com/-3HfxmvJSfTk/UOINguZs9eI/AAAAAAAACwg/n44FCLgQp7I/s200/Appleicious+Icon.png)
 
 I just released [Paper](/articles/paper), a free Blogger/Freeway template, but was not ready to stop there. As you know, I can get a bit excessive at times (times=every hour of every day).
