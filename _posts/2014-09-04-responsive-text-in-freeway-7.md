@@ -12,14 +12,14 @@ Softpress Systems has recently released a huge update to [Freeway Pro](http://ww
 
 Yet, as well all know, that is only *mostly* true. There will always be things that you will need to code by hand - regardless of which tool you use. Responsively resizing text is one of those for Freeway Pro 7 right now. It can be done, but not by using any of Freeway's WYSIWYG tools.
 
-*Side note: It shouldn't be this way - releasing a tool that claims to be able to do responsive design but without the ability to resize text is akin to saying that a two-legged dog can run just like its quadruped brother. Hopefully Softpress will amend this shortcoming soon.*
+*Side note: It shouldn't be this way - hopefully Softpress will amend this shortcoming soon and build a GUI to resize text at breakpoints.*
 {:.note}
 
 Fortunately, responsive-izing text actually pretty straightforward, even if though it is not built-in functionality. While there are numerous methods to achieve roughly the same effect, we will only be looking at the two techniques that I find to be the most "designer-who-doesn't-like-code" friendly.
 
 The first method employs Freeway's awesome **Extended** dialog. While this is the easiest way, it's quite limited in practice. The second technique will require some modification of code, but it's far more flexible and powerful. Read through both, [deconstruct the demo document](http://cl.ly/XKtR/download/Responsive%20Text.freeway), and try it on your own.
 
-Also, this tutorial assumes that you are using sane styling practices and are using Freeway's style system instead of the inspector to style your text.
+Also, this tutorial assumes that you are using sane styling practices and are using [Freeway's style system instead of the inspector to style your text](http://www.softpress.com/kb/questions/230/Creating+Custom+CSS+Styles+in+Freeway).
 
 ## Using the Extended Dialog
 
@@ -73,4 +73,4 @@ The nice thing about this setup is that any text on the page that uses the `mys
 
 Which method you choose is up to you. As a rule of thumb, the first method is best if you are just trying the change the font size of one unique element in your website (like a bit of huge text on the homepage), while the latter method is far better if you need to adjust the size of large amounts of text across the website.
 
-Of course, there are nicer, prettier ways of doing this ([relative font size units like `em`](http://cssway.thebigerns.com/products/flexible-typography/), but I find that the above methods are the most Freeway and noob friendly. Once you are comfortable changing pixel-based dimensions, look into using the more advanced techniques - they can be really nice and easy once you understand them.
+Of course, there are nicer, prettier ways of doing this ([relative font size units like `em`](http://cssway.thebigerns.com/products/flexible-typography/)), but I find that the above methods are the most Freeway and noob friendly. Once you are comfortable changing pixel-based dimensions, look into using the more advanced techniques - they can be really nice and easy once you understand them.
