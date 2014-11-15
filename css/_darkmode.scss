@@ -1,0 +1,184 @@
+$page-bg: #1d1f21; // background color for the page.
+$color: #c5c8c6; // default text color.
+$active-bg: #373b41; // h1 background color
+$alt-bg: lighten($active-bg, 10%); // background color for active navigation.
+$border-color: rgba(100,100,100,0.5); // mostly transparent black to use for borders.
+$solid-border-color: #B4B4B4; // non-transparent version of $border-color.
+
+
+.darkmode {
+	color: $color;
+	background-color: $page-bg;
+	
+	a {
+		color: lighten($color, 15%);
+		border-bottom: 1px solid lighten($color, 15%);
+		&:hover {
+			color: $color;
+			border-color: $color;
+			background-color: $active-bg;
+		}
+	}
+	
+	h1 {
+		color: $color;
+		background-color: $active-bg;
+	}
+	
+	thead, tr:nth-child(even), .download, .blog-tag, .note {
+		background-color: $active-bg;
+		color: $color;
+	}
+	
+	nav.posts {
+		li {
+			a {
+				color: $color;
+				&:hover {
+					background-color: $alt-bg;
+				}
+			}
+		}
+		li:nth-child(odd) {
+			background-color: $active-bg;
+		}
+	}
+	
+	.blog-tag {
+		border-color: $border-color;
+	}
+	
+	.key {
+		color: #272727;
+	}
+	
+	/* Syntax highlighting */
+	
+	// Tomorrow Night
+	$background: lighten(#1d1f21, 3%);
+	$foreground: #c5c8c6;
+	$comment: #969896;
+	$red: #cc6666;
+	$orange: #de935f;
+	$yellow: #f0c674;
+	$green: #b5bd68;
+	$aqua: #8abeb7;
+	$blue: #81a2be;
+	$purple: #b294bb;
+	
+	.hljs-comment,
+	.hljs-title {
+	  color: $comment;
+	}
+	
+	.hljs-variable,
+	.hljs-attribute,
+	.hljs-tag,
+	.hljs-regexp,
+	.ruby .hljs-constant,
+	.xml .hljs-tag .hljs-title,
+	.xml .hljs-pi,
+	.xml .hljs-doctype,
+	.html .hljs-doctype,
+	.css .hljs-id,
+	.css .hljs-class,
+	.css .hljs-pseudo {
+	  color: $red;
+	}
+	
+	/* Tomorrow Orange */
+	.hljs-number,
+	.hljs-preprocessor,
+	.hljs-pragma,
+	.hljs-built_in,
+	.hljs-literal,
+	.hljs-params,
+	.hljs-constant {
+	  color: $orange;
+	}
+	
+	/* Tomorrow Yellow */
+	.ruby .hljs-class .hljs-title,
+	.css .hljs-rules .hljs-attribute {
+	  color: $yellow;
+	}
+	
+	/* Tomorrow Green */
+	.hljs-string,
+	.hljs-value,
+	.hljs-inheritance,
+	.hljs-header,
+	.ruby .hljs-symbol,
+	.xml .hljs-cdata {
+	  color: $green;
+	}
+	
+	/* Tomorrow Aqua */
+	.css .hljs-hexcolor {
+	  color: $aqua;
+	}
+	
+	/* Tomorrow Blue */
+	.hljs-function,
+	.python .hljs-decorator,
+	.python .hljs-title,
+	.ruby .hljs-function .hljs-title,
+	.ruby .hljs-title .hljs-keyword,
+	.perl .hljs-sub,
+	.javascript .hljs-title,
+	.coffeescript .hljs-title {
+	  color: $blue;
+	}
+	
+	/* Tomorrow Purple */
+	.hljs-keyword,
+	.javascript .hljs-function {
+	  color: $purple;
+	}
+	
+	pre {
+		border-radius: 3px;
+		border: 1px $border-color solid;
+		display: block;
+		background: $background;
+		color: lighten($foreground, 10%);
+		padding: 0.5em 3%;
+		border-radius: 4px;
+		overflow: scroll;
+		line-height: 1.4;
+	}
+	
+	pre code {
+		border: none;
+		background-color: transparent;
+		border-radius: 0;
+		@include font-size(1.1);
+		padding: 0;
+	}
+	
+	code {
+		font-size: 0.8em;
+		color: lighten($color, 10%);
+		background: $background;
+		border: 1px $border-color solid;
+		border-radius: 2px;
+		padding: 0 0.1em;
+		padding: 0.1em 0.2em;
+		&::selection {
+			color: $color;
+		}
+	}
+	
+	pre code::selection, pre code span::selection {
+		background-color: $selection !important;
+	}
+	
+	.gist, .gist .gist-data {
+		@include font-size(1.4);
+		border-radius: 3px;
+		.gist-data {
+			background-color: $background !important;
+			font-family: $code-font;
+		}
+	}
+}
