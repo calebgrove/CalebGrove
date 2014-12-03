@@ -3,15 +3,15 @@
 //-----------------------------------*/
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1300px){
 	h1 {
-		@include font-size(5.5);
+		@include font-size(5);
 	}
 }
 
 @media screen and (max-width: 1100px){
 	h1 {
-		@include font-size(5);
+		//@include font-size(5);
 	}
 }
 
