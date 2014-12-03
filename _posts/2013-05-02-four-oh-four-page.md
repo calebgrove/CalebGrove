@@ -22,6 +22,7 @@ Create a custom 404 error page with Freeway is really easy, so let's get started
 4. Add this line to your [.htaccess file](understanding-htaccess-for-humans):
 	
 		ErrorDocument 404 http://example.com/404.html
+	{:.apache}
 
 	Obviously, change `example.com` to your domain. The .htaccess file is located at the domain root (the same place as your `index.html` file). Keep in mind that the .htaccess file is usually invisible, so you will have to set your FTP client to show hidden files to see it. If it doesn't exist, create a new file using your favorite text-editor, save it as `htaccess.txt`, then after you upload it to your server rename it to `.htaccess`. For more information on working with this file, read [Understanding .htaccess - for Humans](understanding-htaccess-for-humans).
 
