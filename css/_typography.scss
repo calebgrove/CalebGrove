@@ -10,7 +10,7 @@
 @include font-face(ClearSans, '/css/clearsans/clearsans-bolditalic-webfont', 700, italic);
 
 // Mac Keyboard Symbols Webfont
-@include font-face(MacSymbols, '/css/macsymbols/mac_symbols');
+@include font-face(Symbols, '/css/symbols/symbols');
 
 html {
 	font-size: 62.5%;
