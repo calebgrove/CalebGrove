@@ -8,8 +8,11 @@ layout: default
 			<span class="date">{{ page.date | date: "%d %b %Y" }}</span>
 			<div class="tags">
 				{% for tag in page.tags %}
-				<a class="blog-tag" href="/tag/{{ tag }}">#{{ tag }}</a>
+				<a class="control-button" href="/tag/{{ tag }}">#{{ tag }}</a>
 				{% endfor %}
+			</div>
+			<div class="reading-mode">
+				Reading mode: <span class="control-button current" id="light">Light</span><span class="control-button" id="dark">Dark</span>
 			</div>
 		</div>
 		{{ content }}

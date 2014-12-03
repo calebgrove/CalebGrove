@@ -155,26 +155,6 @@ code {
 	letter-spacing: 0.15em;
 }
 
-.tags {
-	float: right;
-	clear: none;
-	margin-top: -0.1em;
-}
-
-.blog-tag {
-	color: lighten($color, 10%);
-	background: #E7E7E7;
-	border: 1px $border-color solid;
-	border-radius: 3px;
-	padding: 0.1em 0.5em 0.2em 0.5em;
-	float: right;
-	margin-left: 0.7em;
-	&:hover {
-		background: darken(#E7E7E7, 10%);
-		border-bottom: 1px $border-color solid;
-	}
-}
-
 .thoughts {
 	text-align: center;
 	font-size: 0.9em;

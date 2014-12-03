@@ -120,6 +120,49 @@ h1.category {
 	margin: 1.5em auto;
 }
 
+.post-data {
+	@include clearfix;
+}
+
+.date {
+	float: left;
+}
+
+.tags {
+	float: left;
+	clear: none;
+}
+
+.control-button {
+	color: lighten($color, 10%);
+	background-color: #E7E7E7;
+	border: 1px $border-color solid;
+	border-radius: 3px;
+	padding: 0.1em 0.5em 0.2em 0.5em;
+	float: right;
+	margin-left: 0.7em;
+	margin-top: -0.2em;
+	cursor: pointer;
+	@include transition(all 0.2s linear);
+	&:hover {
+		background-color: darken(#E7E7E7, 10%);
+		border-bottom: 1px $border-color solid;
+	}
+	&.current {
+		cursor: default;
+		color: lighten($color, 30%) !important;
+		background-color: lighten(#E7E7E7, 5%);
+		&:hover {
+			background-color: lighten(#E7E7E7, 5%);
+		}
+	}
+}
+
+.reading-mode {
+	float: right;
+	margin-top: -0.1em;
+}
+
 img {
 	width: auto;
 	height: auto;
@@ -184,12 +227,13 @@ td {
 	background-color: lighten($page-bg, 10%);
 	margin: 1em;
 	:before {
-		content: url('/images/download.svg');
+		content: "\2193";
+		font-family: Symbols, sans-serif;
+		font-size: 2em;
+		display: block;
 		float: left;
-		margin-right: 1em;
-		svg {
-			width: 1em;
-		}
+		margin-right: 0.5em;
+		margin-top: -0.4em;
 	}
 	:after {
 		content: none !important;

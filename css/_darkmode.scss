@@ -1,3 +1,7 @@
+/*-----------------------------------//
+// darkmode stylesheet.
+//-----------------------------------*/
+
 $page-bg: #1d1f21; // background color for the page.
 $color: #c5c8c6; // default text color.
 $active-bg: #373b41; // h1 background color
@@ -20,32 +24,33 @@ $solid-border-color: #B4B4B4; // non-transparent version of $border-color.
 		}
 	}
 	
-	h1 {
-		color: $color;
-		background-color: $active-bg;
-	}
-	
-	thead, tr:nth-child(even), .download, .blog-tag, .note {
+	h1, thead, tr:nth-child(even), .download, .control-button, .note {
 		background-color: $active-bg;
 		color: $color;
+		border-color: $border-color;
 	}
 	
-	nav.posts {
-		li {
+	nav.posts li {
 			a {
 				color: $color;
 				&:hover {
 					background-color: $alt-bg;
 				}
 			}
-		}
-		li:nth-child(odd) {
+		&:nth-child(odd) {
 			background-color: $active-bg;
 		}
 	}
 	
-	.blog-tag {
+	.control-button {
 		border-color: $border-color;
+		&:hover {
+			background-color: darken($active-bg, 10%);
+			border-bottom: 1px $border-color solid;
+		}
+		&.current:hover{
+			background-color: $active-bg;
+		}
 	}
 	
 	.key {

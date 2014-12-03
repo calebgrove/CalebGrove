@@ -40,9 +40,11 @@ $solid-border-color: #B4B4B4; // non-transparent version of $border-color.
 
 body {
 	margin-top:0 !important;
+	transition: background-color, color 0.3s linear;
 }
 
 @import "typography";
 @import "layout";
 @import "highlight";
 @import "responsive";
+@import "darkmode";

@@ -72,6 +72,11 @@
 	pre code {
 		@include font-size(1.4);
 	}
+	.reading-mode {
+		clear: both;
+		margin-top: 1em;
+		float: left;
+	}
 }
 
 @media screen and (max-height: 930px){
