@@ -4,10 +4,10 @@
 
 
 // Clear Sans Webfont
-@include font-face(ClearSans, '/css/clearsans/clearsans-regular-webfont');
-@include font-face(ClearSans, '/css/clearsans/clearsans-bold-webfont', 700);
-@include font-face(ClearSans, '/css/clearsans/clearsans-italic-webfont', 400, italic);
-@include font-face(ClearSans, '/css/clearsans/clearsans-bolditalic-webfont', 700, italic);
+@include font-face('Clear Sans', '/css/clearsans/clearsans-regular-webfont');
+@include font-face('Clear Sans', '/css/clearsans/clearsans-bold-webfont', 700);
+@include font-face('Clear Sans', '/css/clearsans/clearsans-italic-webfont', 400, italic);
+@include font-face('Clear Sans', '/css/clearsans/clearsans-bolditalic-webfont', 700, italic);
 
 // Mac Keyboard Symbols Webfont
 @include font-face(Symbols, '/css/symbols/symbols');
