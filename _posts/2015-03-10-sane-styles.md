@@ -100,7 +100,7 @@ Six or seven styles are not enough for most projects. For example, on [jvidartde
 1. Open the style editor.
 2. Click on the **+** button at the bottom-left of the window.
 3. Name your style intelligently. Don’t name it something like `red`, for if the project requirements changed and you had to change the color to blue, it could get really confusing. A better name would be `sold`, if you were using the example above. Don’t use a tag name unless you know what you are doing (see the brain dump below).
-4. Style to taste. Remember that it inherits the styling of `p`, so only change the settings that you must.
+4. Style to taste. Remember that it inherits the styling of `body`, so only change the settings that you must.
 5. Apply it. Done!
 
 ## Closing brain dump
