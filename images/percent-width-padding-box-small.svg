@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="450px" height="275px" viewBox="0 0 450 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>percent-width-padding-box-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="25" y="54" width="400" height="203"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="percent-width-padding-box-small" sketch:type="MSLayerGroup">
+            <rect id="background" fill="#F8F8F8" sketch:type="MSShapeGroup" x="0" y="0.1" width="450" height="274"></rect>
+            <g id="200px-+-Line" transform="translate(25.000000, 10.000000)">
+                <text id="400px" sketch:type="MSTextLayer" font-family="'Clear Sans', sans-serif" font-size="20" font-weight="normal" sketch:alignment="middle" fill="#4A4A4A">
+                    <tspan x="171.129486" y="22">400px</tspan>
+                </text>
+                <path d="M0.481905063,30 L399.960661,30" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path id="Line-decoration-1" d="M0.481905063,27 L0.481905063,33" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-decoration-2" d="M399.960661,27 L399.960661,33" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <g id="240px-+-Line-Copy" transform="translate(47.000000, 220.000000)">
+                <text id="240px-/-60%" sketch:type="MSTextLayer" font-family="'Clear Sans', sans-serif" font-size="20" font-weight="normal" sketch:alignment="middle" fill="#4A4A4A">
+                    <tspan x="58.3451255" y="23">240px / </tspan>
+                    <tspan x="136.265047" y="23" font-weight="bold">60%</tspan>
+                </text>
+                <path d="M0,1 L239.991032,1" id="Line-Copy" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path id="Line-Copy-decoration-1" d="M0,-2 L0,4" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-Copy-decoration-2" d="M239.991032,-2 L239.991032,4" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <g id="Rectangle-4-Copy">
+                <use stroke="#979797" stroke-width="1" stroke-dasharray="6,3" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <use stroke="none" xlink:href="#path-1"></use>
+            </g>
+            <g id="box-copy" transform="translate(47.000000, 100.000000)">
+                <rect id="Rectangle-3" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="239.730992" height="110"></rect>
+                <rect id="Rectangle-4" stroke="#979797" stroke-dasharray="6,3" fill="#D8D8D8" sketch:type="MSShapeGroup" x="20.0641262" y="20" width="200" height="70"></rect>
+                <text id="width:---50%" sketch:type="MSTextLayer" font-family="Menlo" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="41.365496" y="50">width:   50%</tspan>
+                    <tspan x="41.365496" y="74">padding: 20px</tspan>
+                </text>
+            </g>
+            <g id="200px-+-Line-Copy" transform="translate(67.000000, 60.000000)">
+                <text id="200px" sketch:type="MSTextLayer" font-family="'Clear Sans', sans-serif" font-size="20" font-weight="normal" sketch:alignment="middle" fill="#4A4A4A">
+                    <tspan x="71.3735349" y="22">200px</tspan>
+                </text>
+                <path d="M0.240913051,30 L199.947563,30" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path id="Line-decoration-1" d="M0.240913051,27 L0.240913051,33" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-decoration-2" d="M199.947563,27 L199.947563,33" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

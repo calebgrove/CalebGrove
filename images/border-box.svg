@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="450px" height="238px" viewBox="0 0 450 238" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>border-box</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="border-box" sketch:type="MSLayerGroup">
+            <rect id="background" fill="#F8F8F8" sketch:type="MSShapeGroup" x="0" y="0" width="450" height="238"></rect>
+            <g id="200px-+-Line" transform="translate(49.025391, 7.000000)">
+                <text id="360px" sketch:type="MSTextLayer" font-family="'Clear Sans', sans-serif" font-size="20" font-weight="normal" sketch:alignment="middle" fill="#4A4A4A">
+                    <tspan x="151.319548" y="22">360px</tspan>
+                </text>
+                <path d="M0.432438926,30 L358.905876,30" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path id="Line-decoration-1" d="M0.432438926,27 L0.432438926,33" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-decoration-2" d="M358.905876,27 L358.905876,33" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <g id="240px-+-Line-Copy" transform="translate(24.000000, 200.000000)">
+                <text id="400px" sketch:type="MSTextLayer" font-family="'Clear Sans', sans-serif" font-size="20" font-weight="normal" sketch:alignment="middle" fill="#4A4A4A">
+                    <tspan x="170.446201" y="23">400px</tspan>
+                </text>
+                <path d="M0,1 L399.075997,1" id="Line-Copy" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path id="Line-Copy-decoration-1" d="M0,-2 L0,4" stroke="#979797" stroke-linecap="square"></path>
+                <path id="Line-Copy-decoration-2" d="M399.075997,-2 L399.075997,4" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <g id="box" transform="translate(24.000000, 52.000000)">
+                <rect id="Rectangle-3" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="399.075997" height="134"></rect>
+                <rect id="Rectangle-4" stroke="#979797" stroke-dasharray="6,3" fill="#D8D8D8" sketch:type="MSShapeGroup" x="19.5379983" y="19.7272727" width="360" height="94"></rect>
+                <text id="box-sizing:-border-b" sketch:type="MSTextLayer" font-family="Menlo" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="67.0379983" y="48.1818182">box-sizing: border-box</tspan>
+                    <tspan x="67.0379983" y="72.1818182">width:      400px</tspan>
+                    <tspan x="67.0379983" y="96.1818182">padding:    20px</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
