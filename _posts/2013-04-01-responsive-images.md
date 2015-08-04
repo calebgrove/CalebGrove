@@ -22,7 +22,7 @@ To use, download [Adaptive Images](http://adaptive-images.com), open the `adapti
 $resolutions = array(1159, 928, 700, 570, 480); // the resolution break-points to use (screen widths, in pixels, customized for Backdraft)
 ~~~~
 
-Save, then move `adaptive-images.php` to the root of your server (where the index.html file is placed), and deposit this just after the <head> tag on all your pages (use the master page for ultimate convenience)...
+Save, then FTP `adaptive-images.php` to the root folder of your website (this is the folder where you upload your website's files & folders to), and deposit this just after the `<head>` tag on all your pages (use the master page for ultimate convenience)...
 
 ~~~~
 <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>

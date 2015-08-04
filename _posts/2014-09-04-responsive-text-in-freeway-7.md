@@ -8,12 +8,12 @@ tags: freeway responsive
 [Download the demonstration Freeway document.](/download/Responsive-Text.freeway)
 {:.download.freeway}
 
-Softpress Systems has recently released a huge update to [Freeway Pro](http://www.softpress.com/freeway-pro/), their tool that allows designers to create websites visually. The flagship feature in this update? The ability to create responsive websites *without writing code*.
+**Update:** Since I wrote this article, Softpress has released an update for Freeway that allows you to create responsive text using a nifty GUI. This is much better than the methods outlined below. [See their knowledgebase article on the topic](http://www.softpress.com/kb/questions/509/Changing+style+attributes+at+breakpoints).
+{:.note}
+
+Softpress Systems has recently released [Freeway Pro 7.0](http://www.softpress.com/freeway-pro/), their tool that allows designers to create websites visually. The flagship feature in this update is the ability to create responsive websites *without writing code*.
 
 Yet, as well all know, that is only *mostly* true. There will always be things that you will need to code by hand - regardless of which tool you use. Responsively resizing text is one of those for Freeway Pro 7 right now. It can be done, but not by using any of Freeway's WYSIWYG tools.
-
-*Side note: It shouldn't be this way - hopefully Softpress will amend this shortcoming soon and build a GUI to resize text at breakpoints.*
-{:.note}
 
 Fortunately, responsive-izing text actually pretty straightforward, even if though it is not built-in functionality. While there are numerous methods to achieve roughly the same effect, we will only be looking at the two techniques that I find to be the most "designer-who-doesn't-like-code" friendly.
 
